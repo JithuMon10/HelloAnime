@@ -1,0 +1,19 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal() // ✅ Required for Kotlin plugin
+    }
+}
+
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS) // Keep this to avoid conflicts
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "JoelAnime"
+include(":app")
